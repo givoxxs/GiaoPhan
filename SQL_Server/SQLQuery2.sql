@@ -1,2 +1,3 @@
-SELECT ProductID, ProductName, MAX(UnitsInStock) AS MaxUnitsInStock 
-FROM dbo.Products;
+SELECT *
+FROM Orders
+WHERE ShippedDate IS NULL AND ShipRegion IS NOT NULL

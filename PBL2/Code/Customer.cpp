@@ -28,6 +28,7 @@ void customer::set_point(int x)
 
 customer customer::add()
 {
+    getchar();
     int new_id;
     Node_Cus *current = headCus;
     while (current->next != nullptr)
