@@ -164,12 +164,12 @@
 //     return 0;
 // } 
 
-// Câu 2 : Result 48AA
+// Câu 2 : Result 416AA
 // #include <iostream>
 // using namespace std;
 // template <class T>
 // inline T Func(T x) {
-//     T result = x + x;
+//     T result = x * x;
 //     return result;
 // };
 // template <>
@@ -182,6 +182,23 @@
 //     y = Func<int>(x);
 //     cout << x << y;
 //     cout << Func<string>(str);
+//     return 0;
+// }
+
+// câu 3 : result 0
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     char* ptr;
+//     unsigned long int x = (size_t(0) / 3);
+//     cout << x;
+//     try {
+//         ptr = new char[size_t(0) / 3];
+//         delete[] ptr;
+//     }    
+//     catch (bad_alloc & e) {
+//         cout << e.what();
+//     };
 //     return 0;
 // }
 
