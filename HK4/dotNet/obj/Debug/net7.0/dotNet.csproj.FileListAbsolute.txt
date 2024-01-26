@@ -1,0 +1,14 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\dotNet.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\dotNet.deps.json
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\dotNet.runtimeconfig.json
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\dotNet.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\dotNet.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.AssemblyInfoInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.AssemblyInfo.cs
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\refint\dotNet.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\dotNet.genruntimeconfig.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\ref\dotNet.dll
