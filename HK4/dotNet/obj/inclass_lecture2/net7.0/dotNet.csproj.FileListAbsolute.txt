@@ -1,0 +1,4 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\inclass_lecture2\net7.0\dotNet.GeneratedMSBuildEditorConfig.editorconfig
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\inclass_lecture2\net7.0\dotNet.AssemblyInfoInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\inclass_lecture2\net7.0\dotNet.AssemblyInfo.cs
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\inclass_lecture2\net7.0\dotNet.csproj.CoreCompileInputs.cache
