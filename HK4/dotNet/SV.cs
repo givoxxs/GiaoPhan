@@ -17,9 +17,18 @@ namespace _22N11
             Console.WriteLine("MSSV = {0}, Name = {1}, DTB = {2}", MSSV, Name, DTB);
         }
 
-    public override string ToString()
-    {
-        return "MSSV = " + MSSV + ", Name = " + Name + ", DTB = " + DTB;
+        public override string ToString()
+        {
+            return "MSSV = " + MSSV + ", Name = " + Name + ", DTB = " + DTB;
+        }
+        public static bool CompareDTB(object o1, object o2) {
+            return ((SV)o1).DTB > ((SV)o2).DTB;
+        }
+        public static bool CompareName(object o1, object o2) {
+            if (String.Compare(((SV)o1).Name, ((SV)o2).Name) > 0) {
+                return true;
+            } else 
+                return false;
+        }   
     }
-}
 }

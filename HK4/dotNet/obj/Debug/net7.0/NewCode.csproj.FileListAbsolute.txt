@@ -1,0 +1,14 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\NewCode.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\NewCode.deps.json
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\NewCode.runtimeconfig.json
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\NewCode.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\bin\Debug\net7.0\NewCode.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.GeneratedMSBuildEditorConfig.editorconfig
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.AssemblyInfoInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.AssemblyInfo.cs
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\refint\NewCode.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\NewCode.genruntimeconfig.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\obj\Debug\net7.0\ref\NewCode.dll
