@@ -7,11 +7,11 @@ namespace _22N11
 {
     public class DigitalClock
     {
-        public void ShowDC(object o, EventArgs e)
+        public void ShowDC(object o, TimeEventArgs e)
         {
             DateTime d = DateTime.Now;
             Console.WriteLine("DC: {0}, {1}, {2}, {3}", 
-            d.Hour, d.Minute, d.Second, d.Millisecond);
+            e.t.Hour, e.t.Minute, e.t.Second, e.t.Millisecond);
         }
     }
 }

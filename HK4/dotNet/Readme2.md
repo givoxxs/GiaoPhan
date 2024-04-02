@@ -59,4 +59,16 @@ public delegate bool MyDel_SV(object o1, object o2);
             }
         }
 ```
-## 3. 
+## 3. Handle Event
+```
+
+```
+```
+    Clock c = new Clock();
+    DigitalClock dc = new DigitalClock();
+    AnalogClock ac = new AnalogClock(); 
+    c.OnSecondChange += new Clock.SecondHandler(dc.ShowDC);
+    c.OnSecondChange += new Clock.SecondHandler(ac.ShowAC);
+
+    c.Run();
+```

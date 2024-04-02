@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>BCircle.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="generator" content="SynEdit HTML exporter" />
+<style type="text/css">
+<!--
+body { color: #000000; background-color: #FFFFFF; }
+.cpp1-assembler { color: #0000FF; }
+.cpp1-character { color: #000000; }
+.cpp1-comment { color: #0078D7; font-style: italic; }
+.cpp1-float { color: #800080; }
+.cpp1-hexadecimal { color: #800080; }
+.cpp1-identifier { color: #000000; }
+.cpp1-illegalchar { color: #000000; }
+.cpp1-number { color: #800080; }
+.cpp1-octal { color: #800080; }
+.cpp1-preprocessor { color: #008000; }
+.cpp1-reservedword { color: #000000; font-weight: bold; }
+.cpp1-space { background-color: #FFFFFF; color: #000000; }
+.cpp1-string { color: #0000FF; font-weight: bold; }
+.cpp1-symbol { color: #FF0000; font-weight: bold; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<code><span style="font: 10pt Consolas;"><span class="cpp1-comment">//Ve duong tron bang thuat toan Michener con goi la thuat toan Bresenham
+
+</span><span class="cpp1-preprocessor">#include &lt;winbgim.h&gt;
+
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> MCircle</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> R</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	
+main</span><span class="cpp1-symbol">()
+{
+</span><span class="cpp1-space">	initwindow</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1000</span><span class="cpp1-symbol">,</span><span class="cpp1-number">500</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	setwindowtitle</span><span class="cpp1-symbol">(</span><span class="cpp1-string">&quot;Thuat toan Bresenham ve duong tron...&quot;</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	setviewport</span><span class="cpp1-symbol">(</span><span class="cpp1-number">500</span><span class="cpp1-symbol">,</span><span class="cpp1-number">250</span><span class="cpp1-symbol">,</span><span class="cpp1-number">1000</span><span class="cpp1-symbol">,</span><span class="cpp1-number">500</span><span class="cpp1-symbol">,</span><span class="cpp1-number">0</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">	setbkcolor</span><span class="cpp1-symbol">(</span><span class="cpp1-number">15</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> cleardevice</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	setcolor</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> MCircle</span><span class="cpp1-symbol">(</span><span class="cpp1-number">200</span><span class="cpp1-symbol">);
+</span><span class="cpp1-comment">//	delay(2000); cleardevice();	setcolor(4); circle(0,0,200);
+</span><span class="cpp1-space">	getch</span><span class="cpp1-symbol">();
+</span><span class="cpp1-space">	closegraph</span><span class="cpp1-symbol">();
+}
+
+</span><span class="cpp1-reservedword">void</span><span class="cpp1-space"> MCircle</span><span class="cpp1-symbol">(</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> R</span><span class="cpp1-symbol">){
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">int</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> d</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> 
+		x </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">0</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> y </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> R</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> d </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> </span><span class="cpp1-number">3</span><span class="cpp1-space"> </span><span class="cpp1-symbol">-</span><span class="cpp1-space"> </span><span class="cpp1-number">2</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">R </span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		c </span><span class="cpp1-symbol">=</span><span class="cpp1-space"> getcolor</span><span class="cpp1-symbol">()</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">		</span><span class="cpp1-reservedword">while</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">x </span><span class="cpp1-symbol">&lt;=</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">){
+</span><span class="cpp1-space">			putpixel</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> putpixel</span><span class="cpp1-symbol">(-</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> delay</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			putpixel</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> putpixel</span><span class="cpp1-symbol">(-</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> delay</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			putpixel</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> putpixel</span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-identifier">delay</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			putpixel</span><span class="cpp1-symbol">(-</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-space"> putpixel</span><span class="cpp1-symbol">(-</span><span class="cpp1-identifier">y</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> </span><span class="cpp1-symbol">-</span><span class="cpp1-identifier">x</span><span class="cpp1-symbol">,</span><span class="cpp1-space"> c</span><span class="cpp1-symbol">);</span><span class="cpp1-identifier">delay</span><span class="cpp1-symbol">(</span><span class="cpp1-number">1</span><span class="cpp1-symbol">);
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">if</span><span class="cpp1-space"> </span><span class="cpp1-symbol">(</span><span class="cpp1-identifier">d</span><span class="cpp1-symbol">&lt;</span><span class="cpp1-number">0</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> d </span><span class="cpp1-symbol">+=</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">*</span><span class="cpp1-identifier">x </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-number">6</span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">			</span><span class="cpp1-reservedword">else</span><span class="cpp1-space"> </span><span class="cpp1-symbol">{</span><span class="cpp1-space"> d </span><span class="cpp1-symbol">+=</span><span class="cpp1-space"> </span><span class="cpp1-number">4</span><span class="cpp1-symbol">*(</span><span class="cpp1-identifier">x </span><span class="cpp1-symbol">-</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">)</span><span class="cpp1-space"> </span><span class="cpp1-symbol">+</span><span class="cpp1-space"> </span><span class="cpp1-number">10</span><span class="cpp1-symbol">;</span><span class="cpp1-space"> y</span><span class="cpp1-symbol">--</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;}
+</span><span class="cpp1-space">			x</span><span class="cpp1-symbol">++</span><span class="cpp1-space"> </span><span class="cpp1-symbol">;
+</span><span class="cpp1-space">	</span><span class="cpp1-symbol">}
+}
+
+</span></span>
+</code></pre>
+</body>
+</html>

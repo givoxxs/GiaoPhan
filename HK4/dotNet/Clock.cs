@@ -7,7 +7,7 @@ namespace _22N11
 {
     public class Clock
     {
-        public delegate void SecondHandler (object o, EventArgs e);
+        public delegate void SecondHandler (object o, TimeEventArgs e);
 
         public event SecondHandler OnSecondChange;
 
@@ -16,7 +16,8 @@ namespace _22N11
             while (true)
             {
                 Thread.Sleep(1000);
-                OnSecondChange(this, new EventArgs());
+                OnSecondChange(this, new TimeEventArgs
+                {t = DateTime.Now});
             }
         }
     }

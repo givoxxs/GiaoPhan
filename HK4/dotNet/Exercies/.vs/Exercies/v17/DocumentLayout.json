@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\exercies\\treview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|solutionrelative:treview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\treview\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|solutionrelative:treview\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\treview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77093511-EF73-4674-87FA-4655B8F2BD98}|TreView\\TreView.csproj|solutionrelative:treview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "TreView\\Form1.Designer.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.Designer.cs",
+              "RelativeToolTip": "TreView\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:31:33.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.cs",
+              "RelativeDocumentMoniker": "TreView\\Form1.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.cs",
+              "RelativeToolTip": "TreView\\Form1.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAwLgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T04:14:38.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.cs",
+              "RelativeDocumentMoniker": "TreView\\Form1.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Exercies\\TreView\\Form1.cs [Design]",
+              "RelativeToolTip": "TreView\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T13:39:31.735Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

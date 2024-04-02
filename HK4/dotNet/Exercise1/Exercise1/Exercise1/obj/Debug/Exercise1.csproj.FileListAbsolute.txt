@@ -1,0 +1,10 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.exe.config
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\bin\Debug\Exercise1.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.Form1.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercise1\Exercise1\Exercise1\obj\Debug\Exercise1.pdb

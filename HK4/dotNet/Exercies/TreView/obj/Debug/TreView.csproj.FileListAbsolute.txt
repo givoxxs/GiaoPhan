@@ -1,0 +1,10 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\bin\Debug\TreView.exe.config
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\bin\Debug\TreView.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\bin\Debug\TreView.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.Form1.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\Exercies\TreView\obj\Debug\TreView.pdb

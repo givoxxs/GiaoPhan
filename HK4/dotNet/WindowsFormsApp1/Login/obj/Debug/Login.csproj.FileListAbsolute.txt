@@ -1,0 +1,13 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\bin\Debug\Login.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\bin\Debug\Login.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\UserControl1.g.cs
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login_MarkupCompile.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login_MarkupCompile.lref
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\UserControl1.baml
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.g.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.dll
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Login\obj\Debug\Login.pdb
