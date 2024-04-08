@@ -24,7 +24,7 @@ public class Bai4_handlestring extends JFrame implements ActionListener {
       }
     
     public void GUI() {  
-    	setTitle("Xử lý chuỗi kí tự");
+    	setTitle("Bài 4: Xử lý chuỗi kí tự");
         setBounds(200, 200, 468, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	
