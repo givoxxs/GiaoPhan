@@ -1,0 +1,11 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\bin\Debug\Homework3.exe.config
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\bin\Debug\Homework3.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\bin\Debug\Homework3.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.DetailForm.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.MainForm.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\Homework3\obj\Debug\Homework3.pdb
