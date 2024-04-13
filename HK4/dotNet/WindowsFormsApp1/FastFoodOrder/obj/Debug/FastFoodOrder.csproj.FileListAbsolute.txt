@@ -1,0 +1,10 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\bin\Debug\FastFoodOrder.exe.config
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\bin\Debug\FastFoodOrder.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\bin\Debug\FastFoodOrder.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\FastFoodOrder\obj\Debug\FastFoodOrder.Form1.resources
