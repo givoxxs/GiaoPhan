@@ -41,7 +41,7 @@ public class Bai10_CreateMenu extends JFrame{
         JMenuItem itemFirst = new JMenuItem("First");
         JMenuItem itemSecond = new JMenuItem("Second");
         JMenuItem itemThird = new JMenuItem("Third");
-        
+
         editOption.add(itemFirst);
         editOption.add(itemSecond);
         editOption.add(itemThird);
