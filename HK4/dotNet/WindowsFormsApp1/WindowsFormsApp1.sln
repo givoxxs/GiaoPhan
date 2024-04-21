@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Login", "Login\Login.csproj", "{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "Homework3\Homework3.csproj", "{19AEF6F0-8513-4129-8619-4731CE1AEC80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastFoodOrder", "FastFoodOrder\FastFoodOrder.csproj", "{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19AEF6F0-8513-4129-8619-4731CE1AEC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19AEF6F0-8513-4129-8619-4731CE1AEC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19AEF6F0-8513-4129-8619-4731CE1AEC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19AEF6F0-8513-4129-8619-4731CE1AEC80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

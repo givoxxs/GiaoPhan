@@ -13,3 +13,5 @@ D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Win
 D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Login.dll
 D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Login.pdb
 D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsF.A1EEDF9B.Up2Date
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form5.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form6.resources

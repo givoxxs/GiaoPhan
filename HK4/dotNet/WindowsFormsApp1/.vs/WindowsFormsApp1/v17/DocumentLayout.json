@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\windowsformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\fastfoodorder\\e-order_application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|solutionrelative:fastfoodorder\\e-order_application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\windowsformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\fastfoodorder\\e-order_application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|solutionrelative:fastfoodorder\\e-order_application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\windowsformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}|Login\\Login.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\login\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}|Login\\Login.csproj|solutionrelative:login\\usercontrol1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\windowsformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}|Login\\Login.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\login\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8A926A5-BE9A-473B-A55C-5F6C260E48B8}|Login\\Login.csproj|solutionrelative:login\\usercontrol1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\windowsformsapp1\\windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74E40A80-659D-4A5A-A36D-6EA1248BD70A}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\fastfoodorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036BEDCB-9DF5-4570-A4D5-261AEB28DBE9}|FastFoodOrder\\FastFoodOrder.csproj|solutionrelative:fastfoodorder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,89 +27,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form5.cs",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form5.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form5.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "E-Order_Application.cs [Design]",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\E-Order_Application.cs",
+              "RelativeDocumentMoniker": "FastFoodOrder\\E-Order_Application.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\E-Order_Application.cs [Design]",
+              "RelativeToolTip": "FastFoodOrder\\E-Order_Application.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:29:04.79Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form5.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form5.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Form5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:27:07.548Z",
+              "WhenOpened": "2024-04-13T00:39:16.328Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserControl1.xaml",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\Login\\UserControl1.xaml",
-              "RelativeDocumentMoniker": "Login\\UserControl1.xaml",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\Login\\UserControl1.xaml",
-              "RelativeToolTip": "Login\\UserControl1.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-22T02:12:16.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserControl1.xaml.cs",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\Login\\UserControl1.xaml.cs",
-              "RelativeDocumentMoniker": "Login\\UserControl1.xaml.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\Login\\UserControl1.xaml.cs",
-              "RelativeToolTip": "Login\\UserControl1.xaml.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvy4AAAAbAAAA",
+              "DocumentIndex": 0,
+              "Title": "E-Order_Application.cs",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\E-Order_Application.cs",
+              "RelativeDocumentMoniker": "FastFoodOrder\\E-Order_Application.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\E-Order_Application.cs",
+              "RelativeToolTip": "FastFoodOrder\\E-Order_Application.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAcwA8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T02:12:16.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form4.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Form4.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAIA8wEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:59:44.868Z",
+              "WhenOpened": "2024-04-13T00:39:12.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form4.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Form4.cs [Design]",
-              "RelativeToolTip": "WindowsFormsApp1\\Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T01:17:45.106Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WindowsFormsApp1\\Program.cs",
-              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\WindowsFormsApp1\\Program.cs",
-              "RelativeToolTip": "WindowsFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "DocumentMoniker": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\Program.cs",
+              "RelativeDocumentMoniker": "FastFoodOrder\\Program.cs",
+              "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\WindowsFormsApp1\\FastFoodOrder\\Program.cs",
+              "RelativeToolTip": "FastFoodOrder\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-22T00:44:44.067Z",
+              "WhenOpened": "2024-04-13T00:36:35.915Z",
               "EditorCaption": ""
             }
           ]
