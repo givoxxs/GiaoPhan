@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Calender_sln\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Calender_sln\\calender\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\calender_sln\\calender\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|solutionrelative:calender\\usercontroldays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|d:\\giaophan_workspace\\hk4\\dotnet\\calender_sln\\calender\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Calender_sln\\calender\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{022A6E24-FE42-473D-9823-2D5AFCFDDBB2}|Calender\\Calender.csproj|solutionrelative:calender\\eventform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Calender\\EventForm.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:26:13.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-15T16:26:13.974Z"
             },
             {
               "$type": "Document",
@@ -53,7 +52,7 @@
               "RelativeDocumentMoniker": "Calender\\UserControlDays.cs",
               "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Calender_sln\\Calender\\UserControlDays.cs",
               "RelativeToolTip": "Calender\\UserControlDays.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAiwCsAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T16:04:23.407Z",
               "EditorCaption": ""
@@ -67,8 +66,7 @@
               "ToolTip": "D:\\GiaoPhan_Workspace\\HK4\\dotNet\\Calender_sln\\Calender\\UserControlDays.cs [Design]",
               "RelativeToolTip": "Calender\\UserControlDays.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-15T16:02:58.418Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-15T16:02:58.418Z"
             },
             {
               "$type": "Document",

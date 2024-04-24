@@ -3,12 +3,14 @@ package StartUp;
 import java.io.*;
 
 public class ReadInt {
+	// Read an integer
 	public int nhapso() throws IOException {
 		InputStreamReader luongvao = new InputStreamReader(System.in);
 		BufferedReader br = new BufferedReader(luongvao);
 		String s = br.readLine();
 		return Integer.parseInt(s);
 	}
+	// Tổng và tích các chữ số
 	public void TongTichcacchuso(int m) {
 		int s=0, p=1;
 		while (m > 0) {
@@ -19,6 +21,7 @@ public class ReadInt {
 		System.out.println("Tong cac chu so: " + s);
 		System.out.println("Tich cac chu so: " + p);
 	}
+	// Main
 	public static void main(String arg[]) {
 		ReadInt dt = new ReadInt();
 		int m=0;
