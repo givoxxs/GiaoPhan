@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -106,6 +107,106 @@ namespace WindowsFormsApp1
                 }
                 MessageBox.Show(s);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string s = @"Data Source=GIVOXXS\SQLEXPRESS;Initial Catalog=dotNetDut;Integrated Security=True";
+            SqlConnection cnn = new SqlConnection(s);
+            string query = "select count (*) from SV";
+            SqlCommand cmd = new SqlCommand(query, cnn);
+            cnn.Open();
+            int n = (int) cmd.ExecuteScalar();
+            MessageBox.Show(n.ToString());
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string s = @"Data Source=GIVOXXS\SQLEXPRESS;Initial Catalog=dotNetDut;Integrated Security=True;";
+            SqlConnection cnn = new SqlConnection(s);
+            string query = "select * from SV";
+            SqlCommand cmd = new SqlCommand(query, cnn);
+            cnn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            DataTable dataTable = new DataTable();
+            dataTable.Columns.AddRange(new DataColumn[]
+            {
+                new DataColumn("MSSV", typeof(string)),
+                new DataColumn("NameSV", typeof(string)),
+                new DataColumn("DTB", typeof (double)),
+                new DataColumn("Gender", typeof(bool)),
+            });
+            while (reader.Read())
+            {
+                dataTable.Rows.Add(reader[1].ToString(),
+                    reader["NameSV"].ToString(),
+                    Convert.ToDouble(reader[3].ToString()),
+                    Convert.ToBoolean(reader["Gender"].ToString())
+                );
+            }
+            cnn.Close ();
+            dataGridView1.DataSource = dataTable;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string s = @"Data Source=GIVOXXS\SQLEXPRESS;Initial Catalog=dotNetDut;Integrated Security=True;";
+            SqlConnection cnn = new SqlConnection(s);
+            string query = "select * from SV";
+            SqlDataAdapter da = new SqlDataAdapter();
+            DataSet ds = new DataSet();
+            DataTable dt = new DataTable();
+            cnn.Open();
+            // da.Fill(ds);
+            // da.Fill(ds, "SV");
+            da.Fill( dt );
+            cnn.Close();
+            //dataGridView1.DataSource = ds.Tables[0];
+            //dataGridView1.DataSource = ds.Tables["SV"];
+            dataGridView1.DataSource = dt;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            string query = "select * from SV";
+            dataGridView1.DataSource = DBHelper.Instance.GetRecords(query);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string s = @"Data Source=GIVOXXS\SQLEXPRESS;Initial Catalog=dotNetDut;Integrated Security=True;";
+            SqlConnection cnn = new SqlConnection(s);
+            SqlParameter p1 = new SqlParameter("@Name", textBox1.Text);
+            string query = "select * from SV where NameSV = @Name";
+            SqlDataAdapter da = new SqlDataAdapter(query, cnn);
+            da.SelectCommand.Parameters.Add(p1);
+            DataTable dt = new DataTable();
+            cnn.Open();
+            da.Fill(dt);
+            cnn.Close();
+            dataGridView1.DataSource = dt;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string s = @"Data Source=GIVOXXS\SQLEXPRESS;Initial Catalog=dotNetDut;Integrated Security=True;";
+            SqlConnection cnn = new SqlConnection(s);
+            SqlParameter p1 = new SqlParameter("@Name", textBox1.Text);
+            string query = "select * from SV where NameSV = @Name";
+            SqlCommand cmd = new SqlCommand(query, cnn);
+            cmd.Parameters.Add(p1);
+            cnn.Open();
+            SqlDataReader r = cmd.ExecuteReader();
+            string result = "";
+            while (r.Read())
+            {
+                result += r["MSSV"].ToString() + " " + r["NameSV"].ToString() + "\n";
+            }
+
+            MessageBox.Show(result);
+            cnn.Close();
         }
     }
 }

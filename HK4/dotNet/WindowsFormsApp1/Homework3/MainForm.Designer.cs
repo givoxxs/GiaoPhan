@@ -97,7 +97,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(382, 387);
+            this.button4.Location = new System.Drawing.Point(636, 387);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 7;
@@ -117,7 +117,7 @@
             // comboBoxSort
             // 
             this.comboBoxSort.FormattingEnabled = true;
-            this.comboBoxSort.Location = new System.Drawing.Point(590, 389);
+            this.comboBoxSort.Location = new System.Drawing.Point(499, 387);
             this.comboBoxSort.Name = "comboBoxSort";
             this.comboBoxSort.Size = new System.Drawing.Size(121, 21);
             this.comboBoxSort.TabIndex = 9;

@@ -106,7 +106,7 @@ namespace Homework3
         private bool IsMSSV(string mssv)
         {
         
-            List<Student> students = CSDL.Instance.GetAllStudent();
+            List<Student> students = DBHelper.Instance.GetAllStudents();
 
 
             foreach (Student student in students)

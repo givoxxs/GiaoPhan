@@ -13,7 +13,8 @@ namespace Homework3
 {
     public partial class MainForm : Form
     {
-        CSDL data = CSDL.Instance;
+        // CSDL data = CSDL.Instance;
+        DBHelper data = DBHelper.Instance;
         public MainForm()
         {
             InitializeComponent();
@@ -24,12 +25,13 @@ namespace Homework3
         // show All data in DataGridView
         public void SetDGV()
         {
-            dataGridView1.DataSource = data.GetAllStudent();
+            string query = "select * from sinhvienDUT";
+            dataGridView1.DataSource = data.GetRecords(query);
         }
         // add class to comboBoxClass
         public void addClassToList()
         {
-            List<string> classes = data.GetAllStudent()
+            List<string> classes = data.GetAllStudents()
                 .Select(student => student.Class)
                 .Distinct()
                 .ToList();
@@ -46,7 +48,7 @@ namespace Homework3
                 SetDGV();
             } else
             {
-                List<Student> studentsInClass = data.GetAllStudent()
+                List<Student> studentsInClass = data.GetAllStudents()
                 .Where(student => student.Class == selectedClass)
                 .ToList();
 
@@ -65,7 +67,7 @@ namespace Homework3
                 return;
             } 
             
-            List<Student> resultSearch = data.GetAllStudent()
+            List<Student> resultSearch = data.GetAllStudents()
                 .Where(student => student.Name.ToLower().Contains(searchText.ToLower()))
                 .ToList();
             if (resultSearch.Count  == 0)
@@ -118,7 +120,7 @@ namespace Homework3
                 MessageBox.Show("Please select a student to edit.");
             } 
         }
-        private CSDL GetData()
+        private DBHelper GetData()
         {
             return data;
         }
@@ -166,7 +168,7 @@ namespace Homework3
         // sort DataGridView
         private void SortDataGridView(string column)
         {
-            List<Student> students = data.GetAllStudent();
+            List<Student> students = data.GetAllStudents();
             switch (column)
             {
                 case "MSSV":

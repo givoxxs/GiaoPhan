@@ -1,0 +1,10 @@
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\bin\Debug\ConnectSQLServer.exe.config
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\bin\Debug\ConnectSQLServer.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\bin\Debug\ConnectSQLServer.pdb
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.csproj.AssemblyReference.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.Form1.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.Properties.Resources.resources
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.csproj.GenerateResource.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.csproj.CoreCompileInputs.cache
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.exe
+D:\GiaoPhan_Workspace\HK4\dotNet\WindowsFormsApp1\ConnectSQLServer\obj\Debug\ConnectSQLServer.pdb
