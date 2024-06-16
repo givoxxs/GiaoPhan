@@ -17,43 +17,43 @@ namespace _102220129_PhanVanToan.View
     {
         public delegate void MyDel();
         public MyDel ShowData;
-        string MsSV;
+        string IdBOOK; 
         public PhanVanToan_DF(string mssv = null)
         {
             InitializeComponent();
-            this.MsSV = mssv;
+            this.IdBOOK = mssv;
             SetCBBLSH2();
             LoadDetail();   
         }
         public void SetCBBLSH2()
         {
-            this.cbbLSH2.Items.Clear();
-            this.cbbLSH2.Items.AddRange(BLL_QLSV.Instance.GetCBBItems().ToArray());
-            this.cbbLSH2.SelectedIndex = 0;
-            this.cbbLSH2.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.cbbCategory.Items.Clear();
+            this.cbbCategory.Items.AddRange(BLL_QLTV.Instance.GetCBBItems().ToArray());
+            this.cbbCategory.SelectedIndex = 0;
+            this.cbbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         public void LoadDetail()
         {
-            rdbtnMale.Checked = true;
-            if (MsSV == null)
+            rdbtnCan.Checked = true;
+            if (IdBOOK == null)
             {
                 this.Text = "Add Student";
-                txtDTB.Text = "0";
-                cbbLSH2.SelectedIndex = 1;
+                txtQuantity.Text = "0";
+                cbbCategory.SelectedIndex = 1;
             }
             else
             {
                 this.Text = "Edit Student";
-                txtMSSV.Text = MsSV;
-                txtMSSV.Enabled = false;
-                var data = BLL_QLSV.Instance.GetSVByMSSV(MsSV);
-                txtName.Text = data.NameSV;
-                dtpkNS.Value = data.NS;
-                txtDTB.Text = data.DTB.ToString();
-                cbbLSH2.SelectedIndex = cbbLSH2.FindStringExact(data.LSH.NameLop);
-                if(!data.Gender)
+                txtId.Text = IdBOOK;
+                txtId.Enabled = false;
+                var data = BLL_QLTV.Instance.GetBookById(IdBOOK);
+                txtName.Text = data.Title;
+                dtpkDate.Value = data.PublishedDate;
+                txtQuantity.Text = data.Quantity.ToString();
+                cbbCategory.SelectedIndex = cbbCategory.FindStringExact(data.Categories.Category_Name);
+                if(!data.Rent)
                 {
-                    rdbtnFemale.Checked = true;
+                    rdbtnCant.Checked = true;
                 }
             }
         }
@@ -65,32 +65,32 @@ namespace _102220129_PhanVanToan.View
 
         private void btnOK_Click(object sender, EventArgs e)
         {
-            if (txtMSSV.Text == "" || txtName.Text == "" || txtDTB.Text == "" || !isNumeric(txtDTB.Text))
+            if (txtId.Text == "" || txtName.Text == "" || txtQuantity.Text == "" || !isNumeric(txtQuantity.Text))
             {
                 MessageBox.Show("Vui lòng nhập chính xác thông tin");
                 return;
             }
-            var data = new SV
+            var data = new Book
             {
-                MSSV = txtMSSV.Text,
-                NameSV = txtName.Text,
-                Gender = (rdbtnMale.Checked == true) ? true : false,
-                NS = dtpkNS.Value,
-                DTB = Convert.ToDouble(txtDTB.Text),
-                ID_Lop = ((CBBItem)cbbLSH2.SelectedItem).Value.ToString()
+                IdBook = txtId.Text,
+                Title = txtName.Text,
+                Rent = (rdbtnCan.Checked == true) ? true : false,
+                PublishedDate = dtpkDate.Value,
+                Quantity = Convert.ToInt32(txtQuantity.Text),
+                CategoryId = ((CBBItem)cbbCategory.SelectedItem).Value.ToString()
             };
 
-            if (MsSV == null)
+            if (IdBOOK == null)
             {
-                if (!CheckExist(MsSV))
+                if (!CheckExist(txtId.Text))
                 {
-                    MessageBox.Show("Mã nhân viên đã tồn tại");
+                    MessageBox.Show("Mã Sách đã tồn tại");
                     return;
                 }
-                BLL_QLSV.Instance.AddSV(data);
+                BLL_QLTV.Instance.AddSV(data);
             } else
             {
-                BLL_QLSV.Instance.EditSV(data);
+                BLL_QLTV.Instance.EditSV(data);
             }
             ShowData();
             this.Dispose();
@@ -101,9 +101,14 @@ namespace _102220129_PhanVanToan.View
         }
         public bool CheckExist(string s)
         {
-            var data = BLL_QLSV.Instance.GetSVByMSSV(s);    
+            var data = BLL_QLTV.Instance.GetBookById(s);    
 
             return (data == null) ? true : false;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

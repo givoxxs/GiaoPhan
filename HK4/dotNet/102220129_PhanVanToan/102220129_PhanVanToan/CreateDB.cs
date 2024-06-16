@@ -10,47 +10,66 @@ using System.Threading.Tasks;
 namespace _102220129_PhanVanToan
 {
     class CreateDB
-        : CreateDatabaseIfNotExists<DAL.QLSV>
+        : CreateDatabaseIfNotExists<DAL.QLTV>
         //: DropCreateDatabaseAlways<QLSV>
     {
-        protected override void Seed(QLSV context)
+        protected override void Seed(QLTV context)
         {
-            context.LSHes.AddRange(new List<DTO.LSH>
+            context.Categories.AddRange(new List<DTO.Category>
             {
-                new LSH { ID_Lop = "1", NameLop = "22T_DT1" },
-                new LSH { ID_Lop = "2", NameLop = "22T_DT2" },
-                new LSH { ID_Lop = "3", NameLop = "22T_DT3" },
-                new LSH { ID_Lop = "4", NameLop = "22T_DT4" },
-                new LSH { ID_Lop = "5", NameLop = "22T_DT5" }
+                new Category
+                {
+                    Category_ID = "1",
+                    Category_Name = "Textbook"
+                },
+                new Category
+                {
+                    Category_ID = "2",
+                    Category_Name = "Comic"
+                },
+                new Category
+                {
+                    Category_ID = "3",
+                    Category_Name = "Novel"
+                }
             });
-            context.SVs.AddRange(new List<DTO.SV>
+            context.Books.AddRange(new List<DTO.Book>
             {
-                new SV
+                new Book
                 {
-                    MSSV = "102220129",
-                    NameSV = "Phan Van Toan",
-                    Gender = true,
-                    NS = new DateTime(2004, 12, 28),
-                    DTB = 8.0,
-                    ID_Lop = "2"
+                    IdBook = "1",
+                    Title = "Toán cao cấp",
+                    Quantity = 10,
+                    PublishedDate = new DateTime(2021, 1, 1),
+                    Rent = true,
+                    CategoryId = "1"
                 },
-                new SV
+                new Book
                 {
-                    MSSV = "102220131",
-                    NameSV = "Nguyen Van A",
-                    Gender = true,
-                    NS = new DateTime(2004, 2, 2),
-                    DTB = 9.0,
-                    ID_Lop = "1"
+                    IdBook = "2",
+                    Title = "Doraemon",
+                    Quantity = 5,
+                    PublishedDate = new DateTime(2021, 3, 3),
+                    Rent = true,
+                    CategoryId = "2"
                 },
-                new SV
+                new Book
                 {
-                    MSSV = "102220122",
-                    NameSV = "Le Thi C",
-                    Gender = false,
-                    NS = new DateTime(2004, 7, 7),
-                    DTB = 8.5,
-                    ID_Lop = "1"
+                    IdBook = "3",
+                    Title = "Harry Potter",
+                    Quantity = 7,
+                    PublishedDate = new DateTime(2021, 5, 5),
+                    Rent = true,
+                    CategoryId = "3"
+                },
+                new Book
+                {
+                    IdBook = "4",
+                    Title = "Vật lý 2",
+                    Quantity = 10,
+                    PublishedDate = new DateTime(2021, 2, 2),
+                    Rent = false,
+                    CategoryId = "1"
                 }
             });
         }

@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace _102220129_PhanVanToan.DTO
 {
-    public class LSH
+    public class Category
     {
-        public LSH()
+        public Category()
         {
-            SVs = new HashSet<SV>();
+            Books = new HashSet<Book>();
         }
         [Key]
-        public string ID_Lop { get; set; }
-        public string NameLop { get; set; }
-        public virtual ICollection<SV> SVs { get; set; }
+        public string Category_ID { get; set; }
+        public string Category_Name { get; set; }
+        public virtual ICollection<Book> Books { get; set; }
     }
 }

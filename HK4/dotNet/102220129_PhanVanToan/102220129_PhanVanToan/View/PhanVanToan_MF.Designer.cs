@@ -35,7 +35,7 @@
             this.btnEdit = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.cbbLSH = new System.Windows.Forms.ComboBox();
+            this.cbbCategory = new System.Windows.Forms.ComboBox();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
@@ -106,14 +106,14 @@
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
-            // cbbLSH
+            // cbbCategory
             // 
-            this.cbbLSH.FormattingEnabled = true;
-            this.cbbLSH.Location = new System.Drawing.Point(100, 33);
-            this.cbbLSH.Name = "cbbLSH";
-            this.cbbLSH.Size = new System.Drawing.Size(121, 21);
-            this.cbbLSH.TabIndex = 11;
-            this.cbbLSH.SelectedIndexChanged += new System.EventHandler(this.cbbLSH_SelectedIndexChanged);
+            this.cbbCategory.FormattingEnabled = true;
+            this.cbbCategory.Location = new System.Drawing.Point(100, 33);
+            this.cbbCategory.Name = "cbbCategory";
+            this.cbbCategory.Size = new System.Drawing.Size(121, 21);
+            this.cbbCategory.TabIndex = 11;
+            this.cbbCategory.SelectedIndexChanged += new System.EventHandler(this.cbbLSH_SelectedIndexChanged);
             // 
             // dgv
             // 
@@ -128,9 +128,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(33, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.Size = new System.Drawing.Size(49, 13);
             this.label1.TabIndex = 20;
-            this.label1.Text = "LopSH";
+            this.label1.Text = "Category";
             // 
             // PhanVanToan_MF
             // 
@@ -145,10 +145,10 @@
             this.Controls.Add(this.btnEdit);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.btnSearch);
-            this.Controls.Add(this.cbbLSH);
+            this.Controls.Add(this.cbbCategory);
             this.Controls.Add(this.dgv);
             this.Name = "PhanVanToan_MF";
-            this.Text = "PhanVanToan_MF";
+            this.Text = "MainForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -164,7 +164,7 @@
         private System.Windows.Forms.Button btnEdit;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.ComboBox cbbLSH;
+        private System.Windows.Forms.ComboBox cbbCategory;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.Label label1;
     }

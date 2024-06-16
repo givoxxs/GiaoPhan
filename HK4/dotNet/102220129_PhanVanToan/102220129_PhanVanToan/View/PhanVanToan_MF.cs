@@ -23,20 +23,20 @@ namespace _102220129_PhanVanToan.View
         }
         public void SetCBB()
         {
-            this.cbbLSH.Items.Clear();
-            this.cbbLSH.Items.Add(new CBBItem
+            this.cbbCategory.Items.Clear();
+            this.cbbCategory.Items.Add(new CBBItem
             {
                 Text = "All",
                 Value = 0
             });
-            this.cbbLSH.Items.AddRange(BLL_QLSV.Instance.GetCBBItems().ToArray());
-            this.cbbLSH.SelectedIndex = 0;
-            this.cbbLSH.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.cbbCategory.Items.AddRange(BLL_QLTV.Instance.GetCBBItems().ToArray());
+            this.cbbCategory.SelectedIndex = 0;
+            this.cbbCategory.DropDownStyle = ComboBoxStyle.DropDownList;
         }
         public void Init()
         {
             dgv.ReadOnly = true;
-            var data = BLL_QLSV.Instance.GetAll();
+            var data = BLL_QLTV.Instance.GetAll();
             dgv.DataSource = data;
         }
         public void SetCBBSort()
@@ -51,14 +51,14 @@ namespace _102220129_PhanVanToan.View
         }
         public void ShowData()
         {
-            var data = BLL_QLSV.Instance.GetAll(txtSearch.Text, cbbLSH.SelectedItem.ToString(), cbbSort.SelectedItem.ToString());
+            var data = BLL_QLTV.Instance.GetAll(txtSearch.Text, cbbCategory.SelectedItem.ToString(), cbbSort.SelectedItem.ToString());
             dgv.DataSource = data;
         }
 
         private void cbbLSH_SelectedIndexChanged(object sender, EventArgs e)
         {
             Init();
-            if(cbbLSH.SelectedIndex != 0)
+            if(cbbCategory.SelectedIndex != 0)
             {
                 ShowData();
             }
@@ -85,12 +85,12 @@ namespace _102220129_PhanVanToan.View
         {
             if (dgv.SelectedRows.Count == 1)
             {
-                PhanVanToan_DF f = new PhanVanToan_DF(dgv.SelectedRows[0].Cells["MSSV"].Value.ToString());
+                PhanVanToan_DF f = new PhanVanToan_DF(dgv.SelectedRows[0].Cells["IdBook"].Value.ToString());
                 f.ShowData += new PhanVanToan_DF.MyDel(this.ShowData);
                 f.ShowDialog();
             } else
             {
-                MessageBox.Show("Chỉnh sửa mỗi lần 1 nhân viên");
+                MessageBox.Show("Chỉnh sửa mỗi lần 1 quyển sách");
             }
         }
 
@@ -98,13 +98,13 @@ namespace _102220129_PhanVanToan.View
         {
             if (dgv.SelectedRows.Count == 0 )
             {
-                MessageBox.Show("Chọn nhân viên cần xóa");
+                MessageBox.Show("Chọn quyển sách cần xóa");
             } else
             {
                 foreach (DataGridViewRow row in dgv.SelectedRows)
                 {
-                    string id = row.Cells["MSSV"].Value.ToString();
-                    BLL_QLSV.Instance.DelSV(id);
+                    string id = row.Cells["IdBook"].Value.ToString();
+                    BLL_QLTV.Instance.DelSV(id);
                 }
                 ShowData();
             }

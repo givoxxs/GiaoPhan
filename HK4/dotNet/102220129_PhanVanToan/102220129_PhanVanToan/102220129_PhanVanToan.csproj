@@ -58,12 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BLL\BLL_QLSV.cs" />
+    <Compile Include="BLL\BLL_QLTV.cs" />
     <Compile Include="CreateDB.cs" />
-    <Compile Include="DAL\QLSV.cs" />
+    <Compile Include="DAL\QLTV.cs" />
     <Compile Include="DTO\CBBItem.cs" />
-    <Compile Include="DTO\LSH.cs" />
-    <Compile Include="DTO\SV.cs" />
+    <Compile Include="DTO\Category.cs" />
+    <Compile Include="DTO\Book.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="View\PhanVanToan_DF.cs">

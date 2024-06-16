@@ -2,6 +2,7 @@
 using _102220129_PhanVanToan.DTO;
 using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Data.Entity.Migrations;
 using System.Linq;
 using System.Linq.Dynamic.Core;
@@ -11,54 +12,54 @@ using System.Windows.Forms;
 
 namespace _102220129_PhanVanToan.BLL
 {
-    public class BLL_QLSV
+    public class BLL_QLTV
     {
-        private static BLL_QLSV _Instance;
-        public static BLL_QLSV Instance
+        private static BLL_QLTV _Instance;
+        public static BLL_QLTV Instance
         {
             get
             {
                 if (_Instance == null)
                 {
-                    _Instance = new BLL_QLSV();
+                    _Instance = new BLL_QLTV();
                 }
                 return _Instance;
             }
             private set { }
         }
-        private QLSV db;
-        private BLL_QLSV()
+        private QLTV db;
+        private BLL_QLTV()
         {
-            db = new QLSV();
+            db = new QLTV();
         }
         public List<CBBItem> GetCBBItems()
         {
             List<CBBItem> data = new List<CBBItem>();
-            foreach (var item in db.LSHes.Select(p => p))
+            foreach (var item in db.Categories.Select(p => p))
             {
                 data.Add(new CBBItem
                 {
-                    Value = item.ID_Lop,
-                    Text = item.NameLop
+                    Value = item.Category_ID,
+                    Text = item.Category_Name
                 });
             }
             return data;
         }
-        public List<object> GetAll(string txtSearch = "", string cbb = "All", string sortType = "MSSV")
+        public List<object> GetAll(string txtSearch = "", string cbb = "All", string sortType = "IdBook")
         {
             List<object> items = new List<object>();
             if (cbb == "All")
             {
-                var data = db.SVs
-                    .Where(p => p.NameSV.Contains(txtSearch))
+                var data = db.Books
+                    .Where(p => p.Title.Contains(txtSearch))
                     .Select(p => new
                     {
-                        p.MSSV,
-                        p.NameSV,
-                        p.LSH.NameLop,
-                        p.NS,
-                        p.DTB,
-                        p.Gender
+                        p.IdBook,
+                        p.Title,
+                        p.Quantity,
+                        p.PublishedDate,
+                        p.Rent,
+                        p.Categories.Category_Name,
                     }).OrderBy(sortType).ToList();
                 foreach (var item in data)
                 {
@@ -67,16 +68,16 @@ namespace _102220129_PhanVanToan.BLL
             }
             else
             {
-                var data = db.SVs
-                    .Where(p => p.NameSV.Contains(txtSearch) && p.LSH.NameLop == cbb)
+                var data = db.Books
+                    .Where(p => p.Title.Contains(txtSearch) && p.Categories.Category_Name == cbb)
                     .Select(p => new
                     {
-                        p.MSSV,
-                        p.NameSV,
-                        p.LSH.NameLop,
-                        p.NS,
-                        p.DTB,
-                        p.Gender
+                        p.IdBook,
+                        p.Title,
+                        p.Quantity,
+                        p.PublishedDate,
+                        p.Rent,
+                        p.Categories.Category_Name,
                     }).OrderBy(sortType).ToList();
                 foreach (var item in data)
                 {
@@ -85,30 +86,30 @@ namespace _102220129_PhanVanToan.BLL
             }
             return items;
         }
-        public SV GetSVByMSSV(string mssv)
+        public Book GetBookById(string id)
         {
-            return db.SVs.FirstOrDefault(p => p.MSSV == mssv);
+            return db.Books.FirstOrDefault(p => p.IdBook == id);
         }
         //public LSH GetLSHByID(string id)
         //{
         //    return db.LSHes.FirstOrDefault(p => p.ID_Lop == id);
         //}
-        public void AddSV(SV sv)
+        public void AddSV(Book b)
         {
-            db.SVs.Add(sv);
+            db.Books.Add(b);
             db.SaveChanges();
         }
-        public void EditSV(SV sv)
+        public void EditSV(Book b)
         {
-            var item = db.SVs.Find(sv.MSSV);
-            item = sv;
-            db.SVs.AddOrUpdate(item);
+            var item = db.Books.Find(b.IdBook);
+            item = b;
+            db.Books.AddOrUpdate(item);
             db.SaveChanges();
         }
-        public void DelSV(string mssv)
+        public void DelSV(string id)
         {
-            var item = db.SVs.Find(mssv);
-            db.SVs.Remove(item);
+            var item = db.Books.Find(id);
+            db.Books.Remove(item);
             db.SaveChanges();
         }
     }
